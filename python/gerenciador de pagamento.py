@@ -30,7 +30,7 @@ elif forma_pagamento == 4:
     m = preco/p
     v = True
 else:
-    preco = 0
+    preco = preco
     print('Opção invalidade de pagamento. Tente novamento')
 
 if x == False:
