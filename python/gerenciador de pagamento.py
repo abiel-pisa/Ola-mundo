@@ -29,6 +29,9 @@ elif forma_pagamento == 4:
     preco = preco + (preco*20/100)
     m = preco/p
     v = True
+else:
+    preco = 0
+    print('Opção invalidade de pagamento. Tente novamento')
 
 if x == False:
     print('O valor total a ser pago é de R${:.2f}'.format(preco))
